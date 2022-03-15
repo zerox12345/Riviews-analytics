@@ -17,3 +17,9 @@ for d in data:
 		new.append(d)
 print('留言長度小於100共有', len(new),'筆')
 
+good = []
+for d in data:
+	if 'good' in d:
+		good.append(d)
+print('留言有good字眼的共有', len(good),'筆')
+print(good[0])
